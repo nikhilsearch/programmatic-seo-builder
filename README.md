@@ -54,7 +54,14 @@ This Google Apps Script adds a **pSEO Generator** custom menu to your Google She
 
 ## Demo Video
 
-[![▶️ Watch the demo](https://cdn.loom.com/sessions/thumbnails/485c10411b1d4a619570ebe2e3302047.gif)](https://www.loom.com/embed/485c10411b1d4a619570ebe2e3302047?sid=6695df94-5b6d-456d-9dc0-4b5f9dbcb01c)
+<div>
+  <a href="https://www.loom.com/share/485c10411b1d4a619570ebe2e3302047">
+    <p>Programmatic SEO Builder - Google Sheets - 14 July 2025 - Watch Video</p>
+  </a>
+  <a href="https://www.loom.com/share/485c10411b1d4a619570ebe2e3302047">
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/485c10411b1d4a619570ebe2e3302047-e43efe207d1b1b30-full-play.gif">
+  </a>
+</div>
 
 ## Usage
 
