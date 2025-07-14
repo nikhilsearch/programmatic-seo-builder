@@ -54,14 +54,13 @@ This Google Apps Script adds a **pSEO Generator** custom menu to your Google She
 
 ## Demo Video
 
-<div>
-  <a href="https://www.loom.com/share/485c10411b1d4a619570ebe2e3302047">
-    <p>Programmatic SEO Builder - Google Sheets - 14 July 2025 - Watch Video</p>
-  </a>
-  <a href="https://www.loom.com/share/485c10411b1d4a619570ebe2e3302047">
-    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/485c10411b1d4a619570ebe2e3302047-e43efe207d1b1b30-full-play.gif">
-  </a>
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0;"
+    src="https://www.canva.com/design/DAGtHyvPVg4/z-ApR2aZ9jGyxBMPxUU_Cg/watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
 </div>
+
+<a href="https://www.canva.com/design/DAGtHyvPVg4/z-ApR2aZ9jGyxBMPxUU_Cg/watch?utm_content=DAGtHyvPVg4&utm_campaign=designshare&utm_medium=embeds&utm_source=link" target="_blank" rel="noopener">Video For Pseo Generator</a> by Nikhil Sharma
 
 ## Usage
 
