@@ -1,100 +1,177 @@
-# pSEO Generator for Google Sheets
+Here is the complete and final version of your README.md file for the Programmatic SEO Builder, properly formatted for GitHub:
 
-**Generate scalable programmatic SEO content ideas directly within Google Sheets using Gemini AI.**
+⸻
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-## Table of Contents
+# Programmatic SEO Builder
 
-- [Background](#background)
-- [Features](#features)
-- [Why Use This Script](#why-use-this-script)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Limitations](#limitations)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+Programmatic SEO Builder helps you generate scalable programmatic SEO content ideas directly within Google Sheets using Gemini AI. It is built for SEOs, content strategists, and developers who want to map keyword opportunities at scale using AI-assisted clustering and ideation frameworks.
 
-## Background
+---
 
-This Google Apps Script adds a **pSEO Generator** custom menu to your Google Sheets. It reads a list of keywords from a `Keywords` sheet, sends a single request to Google Gemini AI, and outputs a structured list of programmatic SEO content ideas in a new `pSEO Ideas` sheet.
+## 🔧 What This Tool Does
 
-## Features
+This tool allows you to:
 
-- 🔥 **Single-Call AI**: Batch up to 150 keywords into one request for faster thematic analysis.
-- 🚀 **Structured Output**: Automatically formats results into `Pattern`, `Opportunity`, `Intent`, `Funnel`, and `Variables` columns.
-- 🛠 **User Feedback**: Displays progress via toast messages and alerts.
-- ⚙️ **Easy Setup**: Minimal configuration—just add your API key and paste the script.
-- 🔄 **Idempotent**: Clears and reuses the output sheet on every run.
+- Input a list of keywords into Google Sheets  
+- Generate scalable content pattern ideas based on programmatic SEO logic  
+- Apply frameworks such as Pattern, Opportunity, Intent, Funnel, Variables  
+- Automate ideation for thousands of long-tail or mid-funnel queries  
+- Customize the output structure based on your own templates  
 
-## Why Use This Script
+---
 
-- **Scale Content Planning**: Instantly generate 100+ SEO idea templates from hundreds of keywords.
-- **Maintain Consistency**: Enforces a standard format for programmatic execution and templating.
-- **Save Time**: Avoid manual brainstorming; let AI handle high-level strategy.
-- **Integrate Seamlessly**: Works within the Sheets UI—no external tools required.
+## ✅ Features
 
-## Prerequisites
+- Gemini 1.5 Pro API Integration  
+- Google Sheets + Apps Script-based interface  
+- Structured content generation framework: Pattern, Opportunity, Intent, Funnel, Variables  
+- Prompt customization for advanced use cases  
+- On-demand AI generation (manual trigger only)  
+- Designed for scalability with large keyword sets  
 
-- A Google Workspace or Gmail account.
-- A Google Sheet where you can install the script.
-- A valid Gemini AI API key with sufficient quota.
+---
 
-## Installation
+## 📊 Who It’s For
 
-1. Open your target Google Sheet.
-2. Go to **Extensions > Apps Script**.
-3. In the script editor, replace any existing code with the contents of this script file.
-4. Paste your Gemini API key into the `GEMINI_API_KEY` constant.
-5. Save and authorize the script when prompted.
-6. Reload your spreadsheet to see the **pSEO Generator** menu.
+- Technical SEOs  
+- Programmatic SEO specialists  
+- Content strategists working at scale  
+- Indie SaaS founders  
+- Product-led marketers  
+- Agencies creating landing page frameworks for clients  
 
-## Demo Video
+---
 
-<div>
-  <a href="https://www.loom.com/share/485c10411b1d4a619570ebe2e3302047">
-    <p>Programmatic SEO Builder - Google Sheets - 14 July 2025 - Watch Video</p>
-  </a>
-  <a href="https://www.loom.com/share/485c10411b1d4a619570ebe2e3302047">
-    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/485c10411b1d4a619570ebe2e3302047-e43efe207d1b1b30-full-play.gif">
-  </a>
-</div>
+## 📁 Folder Structure
 
-## Usage
+/Programmatic-SEO-Builder
+│
+├── Google Sheet Template
+│   └── Gemini API Integrated
+│
+├── Apps Script
+│   └── pSEO.gs
+│
+└── Prompt Configuration (embedded in script)
 
-1. Create a sheet named `Keywords` and list your seed keywords in column A (starting at A2).
-2. Click the new **pSEO Generator** menu and select **🚀 Generate Thematic Ideas**.
-3. Confirm the keyword count when prompted.
-4. Wait for the AI to process (you'll see a toast notification).
-5. Review your ideas in the newly created or refreshed `pSEO Ideas` sheet.
+---
 
-## Configuration
+## 🚀 Getting Started
 
-- **API Key**: Edit the `GEMINI_API_KEY` constant at the top of the script.
-- **Model Selection**: Change the endpoint URL in `API_URL` to use a different Gemini model (e.g., `gemini-1.5-pro`).
-- **Keyword Limit**: The script caps at 150 keywords; adjust the threshold in the `if (keywords.length > 150)` check if needed.
-- **Retry Logic**: The `callGeminiAPI` helper retries up to 2 times with backoff; update `maxRetries` or `sleep` duration as desired.
+### 1. Copy the Google Sheet Template
 
-## Limitations
+- Open the public template  
+- Make a copy in your own Google Drive  
 
-- **Quota Management**: Large prompts may exhaust your Gemini API quota. Monitor usage in Google Cloud.
-- **Response Parsing**: Requires the AI to return exactly 5 columns separated by ` - ` per line.
-- **Sheet Names**: Hard-coded sheet names (`Keywords` and `pSEO Ideas`)—rename manually in the code if different.
+> ![screenshot-template-overview](screenshots/screenshot-sheet-keyword-input.png)
 
-## Contributing
+---
 
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/your-feature`.
-3. Make your changes and add tests if applicable.
-4. Commit: `git commit -m "Add your feature description"`.
-5. Push: `git push origin feature/your-feature`.
-6. Open a Pull Request and describe your changes.
+### 2. Get Your Gemini API Key
 
-Please follow the existing code style and conventions.
+- Visit [Google AI Studio](https://makersuite.google.com/app/apikey)  
+- Generate an API key for Gemini 1.5 Pro  
+- Copy the key  
 
-## License
+---
 
-This project is licensed under the [MIT License](LICENSE)
+### 3. Open the Apps Script Editor
+
+- Go to Extensions > Apps Script in the copied sheet  
+- Replace the placeholder with your Gemini API key in this line:  
+```javascript
+const GEMINI_API_KEY = 'PASTE_YOUR_KEY_HERE';
+
+
+⸻
+
+4. Save and Authorize the Script
+	•	Save the script
+	•	Run the onOpen() function manually
+	•	Accept the permissions popup
+
+⸻
+
+5. Use the “pSEO Generator” Menu
+	•	Reload the sheet
+	•	Click on the pSEO Generator menu
+	•	Choose Generate Content Ideas
+
+
+⸻
+
+🧠 How It Works
+
+For each keyword, the script sends a structured prompt to Gemini AI and receives a formatted response using this structure:
+
+Pattern – Opportunity – Intent – Funnel – Variables
+
+
+⸻
+
+⚙️ Prompt Customization
+
+You can edit the prompt inside the script to better suit your use case:
+
+const promptTemplate = `
+Given the keyword: {{keyword}}, generate one programmatic SEO idea using the following format:
+Pattern – Opportunity – Intent – Funnel – Variables.
+Avoid repetition. Think strategically like an SEO.
+`;
+
+
+⸻
+
+📌 Example Input and Output
+
+Input keyword: AI Tools for HR
+Output:
+	•	Pattern: Use Case
+	•	Opportunity: [Top AI Tools Every HR Manager Should Know]
+	•	Intent: Commercial
+	•	Funnel: MOFU
+	•	Variables: AI Tool, Persona, Use Case
+
+⸻
+
+📉 Troubleshooting
+
+Issue	Likely Cause	Fix
+No menu visible	onOpen function not triggered	Reload sheet and run onOpen() manually
+API error	Invalid or expired API key	Regenerate from Google AI Studio
+Empty rows	Missing keyword input	Ensure keyword column is filled
+
+
+⸻
+
+📈 Scaling and Limits
+	•	Avoid triggering the script for more than 100 rows at once
+	•	Gemini API has rate limits; stagger requests if needed
+	•	You can modify the code to support batching and delays
+
+⸻
+
+📊 Analytics and Reporting
+
+Connect the sheet to Looker Studio to monitor:
+	•	Keyword categories
+	•	Intent coverage
+	•	Opportunity types
+
+
+⸻
+
+📄 License
+
+This project is currently unlicensed. Use for personal or educational projects. For commercial use or contributions, please reach out.
+
+⸻
+
+👨‍💻 Author
+
+Nikhil Sharma
+Programmatic SEO Specialist
+GitHub: @nikhilsearch
+
+Let me know when you’re ready to upload screenshots or if you want the file exported directly in `.md` format for GitHub.
