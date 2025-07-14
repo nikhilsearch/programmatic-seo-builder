@@ -54,17 +54,9 @@ This Google Apps Script adds a **pSEO Generator** custom menu to your Google She
 
 ## Demo Video
 
-> GitHub strips `<iframe>` embeds in READMEs. To preserve a preview, use a thumbnail image linked to your video:
-
-```md
-[![▶️ Watch the demo](docs/demo-thumb.png)](https://www.canva.com/design/DAGtHyvPVg4/z-ApR2aZ9jGyxBMPxUU_Cg/watch?embed)
-```
-
-1. **Generate a thumbnail**: take a screenshot of your video or export a poster image, save it as `docs/demo-thumb.png` in your repo.
-2. **Commit** the thumbnail file.
-3. **Link** it in Markdown as shown above.
-
-Clicking the image opens the embedded video in a new tab.
+div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0;" src="https://www.canva.com/design/DAGtHyvPVg4/tKIgIsl-oTtWHYGNL93vYQ/watch?embed" allowfullscreen allow="fullscreen"></iframe>
+</div>
 
 ## Usage
 
