@@ -2,7 +2,7 @@
 
 **Generate scalable programmatic SEO content ideas directly within Google Sheets using Gemini AI.**
 
-<img width="1080" height="607" alt="image" src="https://github.com/user-attachments/assets/bcd62cdf-621a-4da9-81ef-3c467e2776db" />
+<img width="1270" height="710" alt="image" src="https://github.com/user-attachments/assets/eb29bc28-e788-4847-a37d-2abfca88451f" />
 
 
 ## Table of Contents
