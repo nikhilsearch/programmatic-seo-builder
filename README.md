@@ -54,7 +54,7 @@ This Google Apps Script adds a **pSEO Generator** custom menu to your Google She
 
 ## Demo Video
 
-<div style="position: relative; padding-bottom: 64.98194945848375%; height: 0;"><iframe src="https://www.loom.com/embed/485c10411b1d4a619570ebe2e3302047?sid=6695df94-5b6d-456d-9dc0-4b5f9dbcb01c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+[![▶️ Watch the demo](https://cdn.loom.com/sessions/thumbnails/485c10411b1d4a619570ebe2e3302047.gif)](https://www.loom.com/embed/485c10411b1d4a619570ebe2e3302047?sid=6695df94-5b6d-456d-9dc0-4b5f9dbcb01c)
 
 ## Usage
 
