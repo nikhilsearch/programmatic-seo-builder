@@ -20,7 +20,7 @@
 ## What It Does
 
 This Google Apps Script adds a **pSEO Generator** custom menu to your Google Sheets. It reads a list of keywords from a `Keywords` sheet, sends them in one prompt to Google Gemini AI, and outputs a structured list of programmatic SEO content ideas in a new `pSEO Ideas` sheet. Each idea follows the format:  
-`Pattern – Opportunity – Intent – Funnel – Variables`
+`Pattern – Opportunity – Intent – Funnel – Variables` 
 
 This framework supports data-driven programmatic SEO strategies and scalable content template creation.
 
@@ -103,11 +103,5 @@ This framework supports data-driven programmatic SEO strategies and scalable con
 4. Commit: `git commit -m "Describe your feature"`.  
 5. Push: `git push origin feature/your-feature`.  
 6. Open a Pull Request describing your updates.
-
-Follow existing style and keep changes modular.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).  
 
 Built using Google Apps Script and the Gemini AI API. Inspired by the need to scale SEO ideation without losing structure or speed.  
