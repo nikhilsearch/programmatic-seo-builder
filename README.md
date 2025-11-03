@@ -2,7 +2,7 @@
 
 **Generate scalable programmatic SEO content ideas directly within Google Sheets using Gemini AI.** 
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License:](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 <img width="1270" height="710" alt="image" src="https://github.com/user-attachments/assets/eb29bc28-e788-4847-a37d-2abfca88451f" />
 
